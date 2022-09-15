@@ -17,6 +17,6 @@ if (today === "Friday"){
   };
 
 refreshSite.addEventListener('click', () => {
-    refreshSite.style.width = "9%";
-    document.location.reload();
+    refreshSite.style.scale = "1.1";
+    setTimeout(document.location.reload(), 3000);
 })
